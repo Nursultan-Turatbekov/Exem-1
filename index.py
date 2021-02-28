@@ -27,10 +27,12 @@ if g != n:
 
 
 # Задание 3.
-  
-some_string = 'Adverts'
-print(some_string[2:5])
 
+def middle(some_string):
+    return some_string[(len(some_string)-3)//2:(len(some_string)+3)//2]
+
+print(middle("Adverts"))  
+print(middle("advertsin"))  
 
 # Задание 4.
 a = "Aidana"
